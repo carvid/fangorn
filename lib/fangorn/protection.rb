@@ -77,9 +77,3 @@ module Fangorn
 
 end
 
-# Move this to the proper initializer in Rails::Engine extended class when
-# make it a gem.
-ActiveSupport.on_load(:active_record) do
-  include Fangorn::Protection
-end
-
