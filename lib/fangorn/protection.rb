@@ -1,6 +1,6 @@
-require 'fangorn/exceptions'
-
 module Fangorn
+
+  class RecordNotAccessible < StandardError; end
 
   module Protection
     extend ActiveSupport::Concern
