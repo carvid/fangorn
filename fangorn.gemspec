@@ -10,8 +10,8 @@ Gem::Specification.new do |s|
   s.authors     = ["Carlos David González Abraham"]
   s.email       = ["carlosdavid@gonzalez-abraham.com.mx"]
   s.homepage    = "https://github.com/carvid/fangorn"
-  s.summary     = "Fangorn protect his forrest."
-  s.description = "Fangorn protect his forrest."
+  s.summary     = "Fangorn protect your trees."
+  s.description = "Fangorn protect your trees."
 
   s.files = Dir["{app,config,db,lib}/**/*"] + ["MIT-LICENSE", "Rakefile", "README.rdoc"]
 
