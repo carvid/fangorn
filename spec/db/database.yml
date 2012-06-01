@@ -1,0 +1,6 @@
+mysql:
+  adapter: mysql2
+  host: localhost
+  username: root
+  password: 
+  database: fangorn_plugin_test
