@@ -1,0 +1,34 @@
+company_document:
+  id: 1
+  name: Company Document
+  department_id: 1
+
+marketing_document:
+  id: 2
+  name: Marketing Document
+  department_id: 2
+
+sales_document:
+  id: 3
+  name: Sales Document
+  department_id: 3
+
+west_region_document:
+  id: 4
+  name: West Region Document
+  department_id: 4
+
+financial_document:
+  id: 5
+  name: Financial Document
+  department_id: 5
+
+accounting_document:
+  id: 6
+  name: Accounting Document
+  department_id: 6
+
+receivable_document:
+  id: 7
+  name: Accounting Receivable Document
+  department_id: 7

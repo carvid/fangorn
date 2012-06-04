@@ -1,0 +1,34 @@
+ceo:
+  id: 1
+  name: CEO
+  department_id: 1
+
+cmo:
+  id: 2
+  name: CMO
+  department_id: 2
+
+sales_dir:
+  id: 3
+  name: Sales Director
+  department_id: 3
+
+west_region_mgr:
+  id: 4
+  name: West Region Manager
+  department_id: 4
+
+cfo:
+  id: 5
+  name: CFO
+  department_id: 5
+
+accounting_mgr:
+  id: 6
+  name: Accounting Manager
+  department_id: 6
+
+receivable_supv:
+  id: 7
+  name: Accounting Receivable Supervisor
+  department_id: 7

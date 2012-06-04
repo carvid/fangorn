@@ -7,7 +7,12 @@ ActiveRecord::Schema.define(:version => 0) do
     t.column :rgt, :integer
   end
 
-  create_table :people, :force => true do |t|
+  create_table :employees, :force => true do |t|
+    t.column :name, :string
+    t.column :department_id, :integer
+  end
+
+  create_table :documents, :force => true do |t|
     t.column :name, :string
     t.column :department_id, :integer
   end

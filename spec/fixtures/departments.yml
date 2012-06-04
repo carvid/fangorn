@@ -1,0 +1,47 @@
+company:
+  id: 1
+  name: Company
+  lft: 1
+  rgt: 14
+
+marketing:
+  id: 2
+  name: Marketing
+  parent_id: 1
+  lft: 2
+  rgt: 7
+
+sales:
+  id: 3
+  name: Sales
+  parent_id: 2
+  lft: 3
+  rgt: 6
+
+west_region:
+  id: 4
+  name: West Region Sales
+  parent_id: 3
+  lft: 4
+  rgt: 5
+
+finance:
+  id: 5
+  name: Finance
+  parent_id: 1
+  lft: 8
+  rgt: 13
+
+accounting:
+  id: 6
+  name: Accounting
+  parent_id: 5
+  lft: 9
+  rgt: 12
+
+receivable:
+  id: 7
+  name: Accounts Receivable
+  parent_id: 6
+  lft: 10
+  rgt: 11
